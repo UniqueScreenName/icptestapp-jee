@@ -21,7 +21,7 @@ public class RegistrationTest {
         int expected = 600;
         this.cut = new Registration(false, 2, 1);
         int actualNetPrice = this.cut.getNetPrice();
-        assertThat(expected, is(actualNetPrice));
+        assertThat(expected, is(actualNetPrice)); 
     }
 
     @Test
